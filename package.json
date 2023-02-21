@@ -15,6 +15,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
     "grammy": "^1.14.1"
   },
   "devDependencies": {

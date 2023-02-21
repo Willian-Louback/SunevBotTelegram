@@ -1,5 +1,5 @@
 const { Bot } = require('grammy');
-const fs = require('node:fs');
+const fs = require('fs-extra');
 const path = require('node:path');
 
 require('dotenv').config({ path: './secure/.env'});
