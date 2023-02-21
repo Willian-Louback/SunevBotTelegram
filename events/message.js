@@ -8,7 +8,7 @@ module.exports = {
         } else if (prefixo === '/'){
             let commandName;
             for(let i = 1; i <= txt.message.text.length; i++){
-                commandName = txt.message.text.substring(i, 1);
+                commandName = txt.message.text.substring(1, i+1);
             }
             const command = commands[commandName];
             if (command) {
