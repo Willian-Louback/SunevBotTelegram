@@ -1,6 +1,6 @@
 const { Bot } = require('grammy');
 const fs = require('fs-extra');
-const path = require('node:path');
+const path = require('path-browserify');
 
 require('dotenv').config({ path: './secure/.env'});
 
