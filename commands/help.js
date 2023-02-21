@@ -7,8 +7,8 @@ module.exports = {
         txt.reply(
             `Certo, ${user.first_name}. Estou aqui para ajudar!\n`+
             `Lista de comandos:\n`+
-            ` /help - Use este comando para obter ajuda, não exite em perguntar!\n`+
-            ` /start - Use este comando para começarmos!\n`
+            ` • /hello - Use este comando para me testar, eu gosto de falar oi!\n`+
+            ` • /start - Use este comando para começarmos!\n`
         )
     }
 }
