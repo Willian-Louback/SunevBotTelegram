@@ -5,7 +5,7 @@ module.exports = {
     execute: (bot, txt) => {
         const user = txt.from;
         txt.reply(
-            `Olá, ${user.name}. Estou aqui para ajudar!\n`+
+            `Certo, ${user.first_name}. Estou aqui para ajudar!\n`+
             `Lista de comandos:\n`+
             ` /help - Use este comando para obter ajuda, não exite em perguntar!\n`+
             ` /start - Use este comando para começarmos!\n`
