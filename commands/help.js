@@ -8,7 +8,7 @@ module.exports = {
             `Certo, ${user.first_name}. Estou aqui para ajudar!\n`+
             `Lista de comandos:\n`+
             ` • /hello - Use este comando para me testar, eu gosto de falar oi!\n`+
-            ` • /start - Use este comando para começarmos!\n`
+            ` • /userInfo - Use este comando para olhar as suas informações!\n`
         )
     }
 }
