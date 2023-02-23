@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './secure/.env'});
+require('dotenv').config({ path: '../secure/.env'});
 
 module.exports = {
     name: 'help',
