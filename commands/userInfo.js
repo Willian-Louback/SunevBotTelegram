@@ -1,5 +1,5 @@
 module.exports = {
-    name: "userInfo",
+    name: "userinfo",
     execute: async (bot, txt) => {
         const user = txt.from;
         await txt.reply(`Nome: ${user.first_name}.\n`+
