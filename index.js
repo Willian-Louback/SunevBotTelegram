@@ -1,10 +1,10 @@
-const { Bot } = require('grammy');
-const fs = require('fs-extra');
-const path = require('path-browserify');
+const { Telegraf } = require('telegraf');
+const fs = require('node:fs');
+const path = require('node:path');
 
 require('dotenv').config({ path: './secure/.env'});
 
-const bot = new Bot(process.env.TOKEN_BOT);
+const bot = new Telegraf(process.env.TOKEN_BOT);
 
 const chalk = require('chalk');
 
@@ -39,9 +39,7 @@ for(const file of eventsFiles) {
 }
 
 //Iniciar Bot
-bot.api.getMe().then((me) => {
-    bot.options = {};
-    bot.options.first_name = me.first_name;
-    console.log(chalk.green(`Olá, eu sou o ${me.first_name} e estou funcionando!`));
-    bot.start();
-});
+bot.telegram.getMe().then((botInfo) =>{
+    console.log(chalk.green(`Olá, eu sou o ${botInfo.first_name} e estou funcionando!`));
+    bot.launch();
+}) .catch(console.error);

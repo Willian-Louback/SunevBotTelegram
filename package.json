@@ -15,9 +15,7 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "dotenv": "^16.0.3",
-    "fs-extra": "^11.1.0",
-    "grammy": "^1.14.1",
-    "path-browserify": "^1.0.1"
+    "telegraf": "^4.11.2"
   },
   "devDependencies": {
     "eslint": "^8.34.0",

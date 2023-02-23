@@ -1,6 +1,6 @@
 module.exports = {
     name: "hello",
-    execute: (bot, txt) => {
-        txt.reply("Olá mundo!");
+    execute: async (bot, txt) => {
+        await txt.reply("Olá mundo!");
     }
 }
