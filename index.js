@@ -5,6 +5,9 @@ const path = require('node:path');
 require('dotenv').config({ path: './secure/.env'});
 
 const bot = new Telegraf(process.env.TOKEN_BOT);
+/*bot.on(`message`,(txt) => {
+    txt.from.
+})*/
 
 const chalk = require('chalk');
 
