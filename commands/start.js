@@ -1,5 +1,3 @@
-require('dotenv').config({ path: '../secure/.env'});
-
 module.exports = {
     name: 'start',
     execute: async (bot, txt) => {
