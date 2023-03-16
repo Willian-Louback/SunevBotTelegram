@@ -1,5 +1,6 @@
 # Bot Sunev Telegram
-    Percebendo que não há muitas informações disponíveis sobre como criar um bot no telegram usando JavaScript, eu criei essa estrutura básica para organizar os comandos / eventos recebidos pelo bot.
+    Percebendo que não há muitas informações disponíveis sobre como criar um bot no telegram usando JavaScript, 
+    eu criei essa estrutura básica para organizar os comandos / eventos recebidos pelo bot.
 
 # Comandos
     help - Precisa de ajuda?
