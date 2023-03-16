@@ -7,3 +7,5 @@
     hello - Eu gosto de falar oi!
     userinfo - Eu posso te falar as suas informações!
     fino - Mostre toda a sua fineza!
+    
+# @sunevBot
